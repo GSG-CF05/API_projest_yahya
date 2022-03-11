@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #22254b;
+}
+
+header {
+  background-color: #373b69;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+header img {
+  width: 200px;
+  margin-left: 30px;
+}
+
+.contener {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contener .movie {
+  width: 300px;
+  position: relative;
+  background-color: #373b69;
+  overflow: hidden;
+  margin: 1.5rem;
+}
+
+.contener .movie img {
+  width: 100%;
+}
+
+.contener .movie .movie-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.contener .movie .movie-info h3 {
+  color: #eee;
+  margin: 0;
+}
+
+.contener .movie .movie-info span {
+  background-color: #22254b;
+  color: orange;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+}
+
+.contener .movie .description {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(101%);
+  padding: 1rem;
+  background-color: #eee;
+  transition: transform 0.3s ease-in;
+}
+
+.movie:hover .description {
+  transform: translateY(0);
+}
