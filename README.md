@@ -1,7 +1,5 @@
 # API_projest_yahya
 
-# You can use this to test your typing speed.
-
 # Check out [Here](https://gsg-cf05.github.io/API_projest_yahya/).
 
 ## About
